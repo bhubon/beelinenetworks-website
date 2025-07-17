@@ -495,3 +495,9 @@ iframe { width: 100%; border: none; pointer-events: auto; }
     font-weight: 400;
     color: rgb(96, 96, 96);
 }
+
+@media only screen and (max-width:768px){
+    h1.mb-4.animate__animated.animate__shakeX.animate__slow {
+        font-size: 50px;
+    }
+}
