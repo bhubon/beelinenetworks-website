@@ -192,7 +192,7 @@ section{padding: 120px 0; position: relative;}
     Clients Logo
 ------------------------*/
 .clients-logo { text-align: center; }
-.clients-logo img { -webkit-filter: contrast(0%); filter: contrast(0%); opacity: .7; -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; cursor: pointer; }
+.clients-logo img {  -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; cursor: pointer; }
 .clients-logo:hover img { -webkit-filter: none; filter: none; opacity: 1; }
 .client-text { text-align: center; position: relative; }
 .client-text:before { content: ''; position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%); z-index: -1; background: var(--themeht-border-light-color); width: 70%; height: 1px; }
