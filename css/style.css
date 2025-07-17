@@ -33,7 +33,7 @@
 
 
 :root {    
-    --themeht-primary-color: #ff6004;
+    /* --themeht-primary-color: #ff6004;
     --themeht-secondary-color: #fe9e30;
     --themeht-primary2-color: #103ce7;
     --themeht-secondary2-color: #64e9ff;
@@ -43,8 +43,61 @@
     --themeht-bg-dark-color: #000229;
     --themeht-bg-light-color: #f7f9fe;
     --themeht-border-light-color: #e1e1e1;
+    */
     --themeht-body-font-family: "Hanken Grotesk", sans-serif;
     --themeht-secondary-font-family: "Archivo", sans-serif;
+
+    
+    --logo-desktop-height: 60px;
+    --logo-tablet-height: 55px;
+    --logo-mobile-height: 50px;
+    --loader-img-height: 100px;
+    --themeht-typography-body-font-family: Poppins;
+    --themeht-typography-body-font-weight: 400;
+    --themeht-typography-body-font-size: 17px;
+    --themeht-typography-body-line-height: 30px;
+    --themeht-typography-body-color: #606060;
+    --themeht-typography-secondary-font-family: Poppins;
+    --themeht-typography-h1-font-family: Poppins;
+    --themeht-typography-h1-font-weight: 600;
+    --themeht-typography-h1-font-size: 80px;
+    --themeht-typography-h1-line-height: 90px;
+    --themeht-typography-h1-color: #191919;
+    --themeht-typography-h2-font-family: Poppins;
+    --themeht-typography-h2-font-weight: 600;
+    --themeht-typography-h2-font-size: 54px;
+    --themeht-typography-h2-line-height: 64px;
+    --themeht-typography-h2-color: #191919;
+    --themeht-typography-h3-font-family: Poppins;
+    --themeht-typography-h3-font-weight: 500;
+    --themeht-typography-h3-font-size: 34px;
+    --themeht-typography-h3-line-height: 44px;
+    --themeht-typography-h3-color: #191919;
+    --themeht-typography-h4-font-family: Poppins;
+    --themeht-typography-h4-font-weight: 500;
+    --themeht-typography-h4-font-size: 26px;
+    --themeht-typography-h4-line-height: 36px;
+    --themeht-typography-h4-color: #191919;
+    --themeht-typography-h5-font-family: Poppins;
+    --themeht-typography-h5-font-weight: 500;
+    --themeht-typography-h5-font-size: 22px;
+    --themeht-typography-h5-line-height: 32px;
+    --themeht-typography-h5-color: #191919;
+    --themeht-typography-h6-font-family: Poppins;
+    --themeht-typography-h6-font-weight: 500;
+    --themeht-typography-h6-font-size: 20px;
+    --themeht-typography-h6-line-height: 30px;
+    --themeht-typography-h6-color: #191919;
+    --themeht-primary-color: #C670EA;
+    --themeht-secondary-color: #643CB5;
+    --themeht-primary2-color: #FF0C86;
+    --themeht-secondary2-color: #FF7454;
+    --themeht-text-color: #191919;
+    --themeht-body-color: #606060;
+    --themeht-white-color: #FFFFFF;
+    --themeht-bg-dark-color: #000229;
+    --themeht-bg-light-color: #F7F9FE;
+    --themeht-border-light-color: #E1E1E1;
 
 }
 
@@ -374,3 +427,17 @@ iframe { width: 100%; border: none; pointer-events: auto; }
 
 #imagewave2 .stop-color1{stop-color: var(--themeht-secondary2-color);}
 #imagewave2 .stop-color2{stop-color: var(--themeht-primary2-color);}
+
+
+/* Custom css */
+.telephone-bg {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+.telephone-video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
