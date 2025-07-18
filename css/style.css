@@ -495,9 +495,32 @@ iframe { width: 100%; border: none; pointer-events: auto; }
     font-weight: 400;
     color: rgb(96, 96, 96);
 }
+.star-rating {
+  display: inline-flex;
+  flex-direction: row-reverse; /* reverse star order */
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+  }
+  .star-rating input {
+    display: none;
+    cursor: pointer;
+  }
+  .star-rating label {
+    color: #bbb;
+    transition: color 0.2s;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .star-rating label:hover,
+  .star-rating label:hover ~ label,
+  .star-rating input:checked ~ label {
+    color: #FFB900;
+  }
 
 @media only screen and (max-width:768px){
     h1.mb-4.animate__animated.animate__shakeX.animate__slow {
         font-size: 50px;
     }
 }
+
