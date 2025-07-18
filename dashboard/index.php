@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__ . './partials/header.php';
+include_once __DIR__ . '/partials/header.php';
 
 $limit = 10;
 $page = isset($_GET['page']) ? (int) $_GET['page'] : 1;

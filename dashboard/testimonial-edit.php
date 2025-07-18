@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__ . './partials/header.php';
+include_once __DIR__ . '/partials/header.php';
 
 
 $id = isset($_GET['id']) ? (int) $_GET['id'] : 0;

@@ -20,7 +20,7 @@ $result = $stmt->get_result();
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>Beeline Networks – Connecting Local Businesses</title>
+  <title>Testimonials – Beeline Networks</title>
 
   <!-- favicon icon -->
   <link rel="shortcut icon" href="images/favicon.ico" />
@@ -111,7 +111,7 @@ $result = $stmt->get_result();
             <div class="col">
               <!-- Navbar -->
               <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand logo" href="index.html">
+                <a class="navbar-brand logo" href="/">
                   <img class="img-fluid" src="./assets/images/Untitled-22.png" alt=""> </a>
                 <button class="navbar-toggler ht-toggler" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,35 +130,35 @@ $result = $stmt->get_result();
                   <ul class="nav navbar-nav mx-auto">
                     <!-- Home -->
                     <li class="nav-item dropdown">
-                      <a class="nav-link active" href="index.html">Home</a>
+                      <a class="nav-link active" href="/">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">More</a>
                       <ul class="dropdown-menu">
                         <li>
-                          <a href="founder.html">Founder Director</a>
+                          <a href="founder">Founder Director</a>
                         </li>
                         <li>
-                          <a href="about-us.html">About Us</a>
+                          <a href="about-us">About Us</a>
                         </li>
                         <li>
-                          <a href="faq.html">Faq</a>
+                          <a href="faq">Faq</a>
                         </li>
                         <li>
-                          <a href="contact-us.html">Contact Us</a>
+                          <a href="contact-us">Contact Us</a>
                         </li>
                         <li>
-                          <a href="careers.html">Careers</a>
+                          <a href="careers">Careers</a>
                         </li>
                         <li>
-                          <a href="testimonials.php">Testimonials</a>
+                          <a href="testimonials">Testimonials</a>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </div>
                 <div class="header-right d-flex align-items-center">
-                  <a class="header-btn" href="contact.html">Let's Chat <i class="bi bi-arrow-right"></i>
+                  <a class="header-btn" href="contact-us">Let's Chat <i class="bi bi-arrow-right"></i>
                   </a>
                   <a href="#" class="ht-nav-toggle">
                     <img src="./assets/images/grid-icon.svg" alt="" style="height: 40px;max-width:100%;">
@@ -423,22 +423,22 @@ $result = $stmt->get_result();
                   <h5>Company</h5>
                   <ul class="list-unstyled w-100">
                     <li>
-                      <a href="about-us.html">About & Services</a>
+                      <a href="about-us">About & Services</a>
                     </li>
                     <li>
-                      <a href="services.html">Meet Director</a>
+                      <a href="founder">Meet Director</a>
                     </li>
                     <li>
-                      <a href="portfolio-masonry.html">Contact Us</a>
+                      <a href="faq">Faq</a>
                     </li>
                     <li>
-                      <a href="team.html">Faq</a>
+                      <a href="contact-us">Contact Us</a>
                     </li>
                     <li>
-                      <a href="contact.html">Careers</a>
+                      <a href="careers">Careers</a>
                     </li>
                     <li>
-                      <a href="contact.html">Testimonials</a>
+                      <a href="testimonials">Testimonials</a>
                     </li>
                   </ul>
                 </div>
@@ -446,13 +446,13 @@ $result = $stmt->get_result();
                   <h5>Policies</h5>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="blog-right-sidebar.html">Privacy Policy</a>
+                      <a href="privacy-policy">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="error-404.html">CSST Policy</a>
+                      <a href="csst-policy">CSST Policy</a>
                     </li>
                     <li>
-                      <a href="faq.html">PVC Policy</a>
+                      <a href="pvc-policy">PVC Policy</a>
                     </li>
                   </ul>
                 </div>
